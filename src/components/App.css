@@ -1,10 +1,16 @@
-.App{
-  position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.fc{
+  margin: 0 auto;
+  width: 250px; 
+}
+.fade{
+  animation-name:fade-in;
+  animation-duration: 2s;
+}
+.age-stats{
+  opacity: 100
+}
 
-    margin: auto;
-
+@keyframes fade-in{
+  from {opacity: 0;}
+  to {opacity: 100;}
 }
