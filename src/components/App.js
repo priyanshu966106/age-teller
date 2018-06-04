@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Form,FormControl,Button} from 'react-bootstrap';
 import './App.css';
+import AgeStat from './agestat';
 
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
                 <Button bsStyle="danger" onClick={()=> this.changeval()}>
                   submit
                 </Button>
+                <AgeStat date={this.state.bdate}/>
               </Form>
           
        </div>
